@@ -1,0 +1,100 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y estilo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Barra de navegación */
+.navbar {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    
+    padding: 15px;
+}
+
+.navbar ul {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    font-family: Arial, sans-serif;
+    margin: 0 15px;
+}
+
+.nav-button {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para las secciones */
+section {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.homeImg{
+  display: flex;
+    justify-content: end;
+    position: relative;
+    left: -150px;
+
+
+
+} 
+
+section h2 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    color: black;
+}
+
+section p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.letra h2{
+    color: gray;
+}
+
